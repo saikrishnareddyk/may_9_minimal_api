@@ -1,1 +1,22 @@
+# Build folders
+bin/
+obj/
+publish/
+
+# Visual Studio files
 .vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# VS Code files
+.vscode/
+
+# Secrets and environment
+appsettings.Development.json
+secrets.json
+.env
+
+# NuGet packages
+*.nupkg
+packages/
